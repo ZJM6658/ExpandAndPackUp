@@ -29,7 +29,7 @@
     [shortAttrStr addAttribute:NSLinkAttributeName value:@"展开" range:NSMakeRange(shortAttrStr.length - 4, 4)];
     
     //展开后的全部文字
-    NSMutableString *wholeStr = [[NSMutableString alloc] initWithString:@"中国共产党在社会主义初级阶段的基本路线是：领导和团结全国各族人民，以经济建设为中心，坚持四项基本原则，坚持改革开放，自力更生，艰苦创业，为把我国建设成为富强民主文明和谐的社会主义现代化国家而奋斗。下面是YJBYS小编分享的2016最新党章全文"];
+    NSMutableString *wholeStr = [[NSMutableString alloc] initWithString:@"中国共产党在社会主义初级阶段的基本路线是：领导和团结全国各族人民，以经济建设为中心，坚持四项基本原则，坚持改革开放，自力更生，艰苦创业，为把我国建设成为富强民主文明和谐的社会主义现代化国家而奋斗。YJBYS小编分享的2016最新党章全文"];
     [wholeStr appendString:@"收起😳"];
     NSMutableAttributedString *wholeAttrStr = [[NSMutableAttributedString alloc]initWithString:wholeStr];
     [wholeAttrStr addAttribute:NSLinkAttributeName value:@"收起" range:NSMakeRange(wholeAttrStr.length - 4, 4)];
