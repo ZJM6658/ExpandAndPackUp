@@ -1,15 +1,13 @@
 //
-//  ViewController.h
+//  VC_Root.h
 //  ExpandAndPackUp
 //
-//  Created by zhujiamin on 2016/11/22.
+//  Created by zhujiamin on 2016/11/23.
 //  Copyright © 2016年 zhujiamin. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface VC_Root : UIViewController
 
 @end
-
